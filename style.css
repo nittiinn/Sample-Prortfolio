@@ -64,13 +64,13 @@ nav a.active{
     border-bottom: 3px solid #43d113;
 }
 
-@media(max-width:995px){
+@media(max-width:600px){
     nav{
         position: absolute;
         display: none;
         top: 0;
         right: 0;
-        width: 40%;
+        width: 40vw;
         border-left: 3px solid #43d113;
         border-bottom: 3px solid #43d113;
         border-bottom-left-radius: 2rem;
@@ -228,6 +228,7 @@ span{
     background: black;
     padding-block: 20px;
     text-align: center;
+    font-size: 2rem;
   }
   
   .footer .logo {
